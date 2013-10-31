@@ -14,5 +14,12 @@ int main(){
 	*/
 	execl("./a.out",NULL,NULL);
 
+/*
+	int ret;
+	char *envp[] = { NULL };
+	char *argv[] = { "./test_args", "hello", "there", NULL };
+  	ret = execve("./test_args", argv, envp);
+ */
+
 	return 0;
 }
